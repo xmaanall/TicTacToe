@@ -1,0 +1,162 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: #ffd7d9; 
+    color: rgb(104, 102, 102);
+
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.board {
+    width: 306px;
+    height: 306px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cells{
+    width: 98px;
+    height: 98px;
+    border: 1.5px solid #96ACBF;
+ 
+    border-radius: 10px;
+    margin: 2px;
+}
+
+
+
+button {
+    border-radius: 12px;
+    padding: 1.0em 1.2em;
+    border: none;
+    background-color: #87c3f9;
+    padding:20px 40px; 
+    font-family: "JetBrains Mono", monospace;
+font-weight: bold;
+
+}
+
+button:hover {
+    background-color: #2793f5;
+    color: rgb(243, 237, 237);
+
+}
+
+.player-one {
+    background-color: #ff8b90;
+}
+
+.player-two {
+    background-color: rgb(84, 146, 228);
+}
+
+
+
+.message {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color:rgb(8, 8, 8) ;
+  
+}
+
+.reset-button {
+    text-align: center;
+    margin-top: 40px;
+
+   
+}
+
+h2{
+    color:rgb(84, 146, 228);
+   
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+
+
+
+.game-background {
+    
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+
+  .h1 {
+ 
+    color: #2793f5;
+    font-size: 25px;
+    text-align: center;
+  }
+  .h3{
+ 
+    color: rgb(54, 53, 53);
+    font-size: 20px;
+    text-align: center;
+  }
+  .start-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-weight: bolder;
+    padding: 1.0em 1.2em;
+    background-color: #87c3f9;
+    border: medium;
+    margin: auto;
+    color: rgb(54, 53, 53);
+  }
+  .start-btn:hover,
+  .start-btn:focus {
+    background-color: #2793f5;
+    color: rgb(243, 237, 237);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+.firstChoice {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    color: rgb(54, 53, 53);
+    font-size: 15px;
+    text-align: center;
+  }
+  .secodChoice {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: rgb(54, 53, 53);
+    font-size: 15px;
+    text-align: center;
+  }
+
+
+  .footer{
+font-size: 10px;
+
+padding: 15px;
+
+  }

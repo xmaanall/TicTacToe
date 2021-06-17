@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+
+   
+  <meta charset="UTF-8">
+
+  <title>Tic tac toe </title>
+
+    <link rel="stylesheet" href="style.css" />
+ 
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+
+</head>
+<body onload="showModal()">
+
+     <!----------------- Modal -------------------->
+        <div class="header">
+          
+          <h2>Tic-Tac-Toe</h2>
+          <div class="message"></div>
+          <div id="container" class="game-background">
+            <div class="modal-content">
+        <h1 class="h1">Welcome to the Tic-Tac-Toe Game</h1>
+          <h3 class="h3">Choose Your Fighter</h3>
+          <form class="form">
+          <div class="firstChoice">
+            <input id="one-player" name="choice" type="radio" />
+            <label for="one-player">Computer</label>
+        </div>
+         
+            <div class="secodChoice">
+            <input id="two-players" name="choice" type="radio" />
+            <label for="two-players">Two Players</label>
+          
+        </div>
+          </form>
+          <button id="start-btn" class="start-btn">Let's Play!</button>
+        </div>
+          </div>
+
+       
+       <!---------------- Game Content  ------------>
+         <div class="board"></div>
+        
+        <div class="game-over"></div>
+        <div class="reset-button">
+          <button type="reset" id="reset">Reset</button>
+       </div>
+
+
+
+
+
+<!------------- footer --------------->
+
+       <div class="footer">
+        Developed 
+        by Manal AlOtaibi <span style="color: rgb(243, 49, 49)">&#9829;</span>
+      </div>
+     
+    </body>
+  </html>
+    <script src="main.js"></script> 
+
+</body>
+
+</html>
+
+
